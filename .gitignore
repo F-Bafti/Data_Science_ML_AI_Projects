@@ -1,0 +1,16 @@
+CNN_Chest_Xray_Project/data/
+.env
+
+# Configuration files (private/local settings)
+*.env
+config.local.js
+
+# Compilation artifacts
+/dist
+/build
+*.o
+*.pyc
+
+# OS/Editor generated files
+.DS_Store
+*~

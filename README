@@ -1,0 +1,17 @@
+# RNN Music Generation
+
+This repository contains a Jupyter Notebook demonstrating **music generation using an LSTM-based Recurrent Neural Network (RNN)** in PyTorch. The model learns to predict the next character in music sequences written in **ABC notation**.
+
+## Features
+- **Character-level modeling** of music sequences.
+- Uses a **learnable embedding layer** for efficient symbol representation.
+- Generates new music by sampling from the trained model.
+- Supports batch training with configurable sequence length and hidden units.
+
+## Notebook
+`RNN_Music_generation.ipynb` includes:
+1. **Data preprocessing**: Combine ABC music files and vectorize characters.
+2. **Model definition**: LSTM network with embedding and fully connected layers.
+3. **Training loop**: Cross-entropy loss and backpropagation over sequences.
+4. **Music generation**: Sampling and sequence generation in ABC format.
+5. **Visualization**: Inspect model outputs and generated sequences.
